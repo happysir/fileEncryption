@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:orientation="vertical" android:id="@+id/encCTV">
+    <RadioGroup android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:id="@+id/encAlgSelRG">
+        <RadioButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:checked="true" android:layout_gravity="left" android:text="@string/alg1" android:id="@+id/encAlgSelR1"></RadioButton>
+        <RadioButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="left" android:text="@string/alg2" android:id="@+id/encAlgSelR2"></RadioButton>
+        <RadioButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="left" android:text="@string/alg3" android:id="@+id/encAlgSelR3"></RadioButton>
+    </RadioGroup>
+    <EditText android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:text="@string/keyStr" android:layout_width="200dip" android:id="@+id/encAlgKey"></EditText>
+    <CheckedTextView android:layout_height="wrap_content" android:text="@string/outputStr" android:layout_width="wrap_content" android:id="@+id/encCTV"></CheckedTextView>
+    <EditText android:layout_height="wrap_content" android:text="@string/blank" android:layout_gravity="center" android:layout_width="300dip" android:id="@+id/encOutText"></EditText>
+    <Button android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:layout_margin="10dip" android:layout_width="200dip" android:text="@string/encryptStr" android:id="@+id/encAlgSelBtn"></Button>
+</LinearLayout>

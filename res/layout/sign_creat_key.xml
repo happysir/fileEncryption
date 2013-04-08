@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:orientation="vertical">
+    <CheckedTextView android:layout_height="wrap_content" android:text="@string/sizeSelStr" android:id="@+id/checkedTextView1" android:layout_width="wrap_content"></CheckedTextView>
+    <RadioGroup android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:id="@+id/signCKSizeRG">
+        <RadioButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:checked="true" android:layout_gravity="left" android:text="@string/smallSize" android:id="@+id/signCKSizeR1"></RadioButton>
+        <RadioButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="left" android:text="@string/midSize" android:id="@+id/signCKSizeR2"></RadioButton>
+        <RadioButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="right" android:text="@string/bigSize" android:id="@+id/signCKSizeR3"></RadioButton>
+    </RadioGroup>
+    <EditText android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:text="@string/PRKFileStr" android:layout_width="300dip" android:id="@+id/signCrKeyPRK"></EditText>
+    <EditText android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:text="@string/PUKFileStr" android:layout_width="300dip" android:id="@+id/signCrKeyPUK"></EditText>
+    <Button android:layout_height="wrap_content" android:layout_width="200dip" android:layout_gravity="center_horizontal" android:text="@string/keyCreatStr" android:id="@+id/signCreatKeyMenuBtn"></Button>
+</LinearLayout>

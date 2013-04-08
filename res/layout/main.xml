@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent" android:layout_width="fill_parent" android:orientation="vertical">
+<TextView  
+    android:layout_height="wrap_content" 
+    android:text="@string/hello" android:layout_width="fill_parent" android:layout_gravity="center_horizontal"/>
+<Button android:layout_height="wrap_content" android:layout_width="200dip" android:layout_gravity="center_horizontal" android:text="@string/encryptStr" android:id="@+id/menuEncryptBtn"></Button>
+<Button android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:layout_width="200dip" android:text="@string/decryptStr" android:id="@+id/menuDecryptBtn"></Button>
+<Button android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:layout_width="200dip" android:text="@string/signStr" android:id="@+id/menuSignBtn"></Button>
+<Button android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:layout_width="200dip" android:text="@string/macStr" android:id="@+id/menuMacBtn"></Button>
+<Button android:layout_width="200dip" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:text="@string/writeStr" android:id="@+id/menuEditBtn"></Button>
+<Button android:layout_width="200dip" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:text="@string/delStr" android:id="@+id/menuDelBtn"></Button>
+</LinearLayout>

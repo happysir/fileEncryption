@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:orientation="vertical">
+    <EditText android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:layout_width="300dip" android:text="@string/srcFileStr" android:id="@+id/signCheckSrcFile"></EditText>
+    <EditText android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:layout_width="300dip" android:text="@string/signFileStr" android:id="@+id/signCheckSignFile"></EditText>
+    <EditText android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:layout_width="300dip" android:text="@string/PUKFileStr" android:id="@+id/signCheckKeyFile"></EditText>
+    <Button android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:layout_width="200dip" android:text="@string/signCheck" android:id="@+id/signCheckMenuBtn"></Button>
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="cn.wz"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="7" />
+	<uses-permission android:name="android.permission.INTERNET" />
+  	<uses-permission android:name="android.permission.WRITE_SETTINGS" />
+ 	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>   
+  	<uses-permission android:name="android.permission.DELETE_CACHE_FILES" />
+  	<uses-permission android:name="android.permission.RECORD_AUDIO" />
+  	<uses-permission android:name="android.permission.INSTALL_PACKAGES"/>
+  	<uses-permission android:name="android.permission.READ_OWNER_DATA"/>
+  	<uses-permission android:name="android.permission.CLEAR_APP_USER_DATA"/>
+	<uses-permission android:name="android.permission.DELETE_CACHE_FILES"/>
+  	<uses-permission android:name="android.permission.DELETE_PACKAGES"/>
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".MainActivity"
+                  android:label="@string/app_name"
+                  android:theme="@style/titleTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DecAlgSelActivity"
+                  android:label="@string/app_name"
+                  android:theme="@style/titleTheme">    
+        </activity>
+        <activity android:name=".EncAlgSelActivity"
+                  android:label="@string/app_name"
+                  android:theme="@style/titleTheme">    
+        </activity>
+        <activity android:name=".FileSelectActivity"
+                  android:label="@string/app_name"
+                  android:theme="@style/titleTheme">    
+        </activity>
+        <activity android:name=".MacCheckActivity"
+                  android:label="@string/app_name"
+                  android:theme="@style/titleTheme">    
+        </activity>
+        <activity android:name=".MacMenuActivity"
+                  android:label="@string/app_name"
+                  android:theme="@style/titleTheme">    
+        </activity>
+        <activity android:name=".MacSetActivity"
+                  android:label="@string/app_name"
+                  android:theme="@style/titleTheme">    
+        </activity>
+        <activity android:name=".SignCheckMenuActivity"
+                  android:label="@string/app_name"
+                  android:theme="@style/titleTheme">    
+        </activity>
+        <activity android:name=".SignCreatKeyActivity"
+                  android:label="@string/app_name"
+                  android:theme="@style/titleTheme">    
+        </activity>
+        <activity android:name=".SignMenuActivity"
+                  android:label="@string/app_name"
+                  android:theme="@style/titleTheme">    
+        </activity>
+        <activity android:name=".SignSetMenuActivity"
+                  android:label="@string/app_name"
+                  android:theme="@style/titleTheme">    
+        </activity>
+        <activity android:name=".MenuEditActivity"
+                  android:label="@string/app_name"
+                  android:theme="@style/titleTheme">    
+        </activity>
+        
+
+    </application>
+</manifest>

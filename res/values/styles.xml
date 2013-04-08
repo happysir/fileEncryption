@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:adnroid="http://schemas.android.com/apk/res/android">
+<style name="CustomWindowTitleBackground" parent="android:WindowTitleBackground">  
+  <item name="android:background">@drawable/title</item>  
+</style>  
+  
+<style name="CustomWindowTitle" parent="android:WindowTitle">  
+  <item name="android:textAppearance">@style/CustomWindowTitleText</item>  
+</style>  
+  
+<style name="CustomWindowTitleText" parent="android:TextAppearance.WindowTitle">  
+  <item name="android:textColor">#000000</item>  
+  <item name="android:textSize">14sp</item>  
+  <item name="android:textStyle">bold</item>  
+  <item name="android:gravity">center_horizontal</item>
+</style>  
+
+<style name="Button" parent="android:Widget">
+	<item name="android:background">@drawable/btn</item>
+	<item name="android:gravity">center_horizontal</item>
+	<item name="android:textAppearance">@style/TextAppearance</item>  	
+</style>
+
+<style name="TextAppearance">
+	<item name="android:textColor">#eeeeee</item>
+	<item name="android:textColorHighlight">#aaaaaa</item>
+	<item name="android:textSize">21sp</item>
+	<item name="android:gravity">center_horizontal</item>
+</style>
+ 
+</resources>

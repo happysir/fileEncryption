@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:orientation="vertical">
+    <EditText android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:layout_width="300dip" android:text="@string/srcFileStr" android:id="@+id/signSetSrcFile"></EditText>
+    <EditText android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:layout_width="300dip" android:text="@string/tarFileStr" android:id="@+id/signSetTarFile"></EditText>
+    <EditText android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:layout_width="300dip" android:text="@string/PRKFileStr" android:id="@+id/signSetKeyFile"></EditText>
+    <Button android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:text="@string/signStr" android:layout_width="200dip" android:id="@+id/signSetMenuBtn"></Button>
+</LinearLayout>

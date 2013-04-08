@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:orientation="vertical">
+    <RadioGroup android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:id="@+id/delAlgSelRG">
+        <RadioButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:checked="true" android:text="@string/alg1" android:layout_gravity="left" android:id="@+id/decAlgSelR1"></RadioButton>
+        <RadioButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/alg2" android:layout_gravity="left" android:id="@+id/decAlgSelR2"></RadioButton>
+        <RadioButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/alg3" android:layout_gravity="left" android:id="@+id/decAlgSelR3"></RadioButton>
+    </RadioGroup>
+    <EditText android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:layout_width="200dip" android:text="@string/keyStr" android:id="@+id/decAlgKey"></EditText>
+    <CheckedTextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/outputStr" android:id="@+id/decCTV"></CheckedTextView>
+    <EditText android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:layout_width="300dip" android:text="@string/blank" android:id="@+id/delOutText"></EditText>
+    <Button android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:layout_width="200dip" android:text="@string/decryptStr" android:id="@+id/decAlgSelBtn" android:layout_margin="10dip"></Button>
+</LinearLayout>

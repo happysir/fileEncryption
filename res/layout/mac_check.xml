@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:orientation="vertical">
+    <EditText android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:layout_width="300dip" android:text="@string/srcFileStr" android:id="@+id/macCheckSrcFile"></EditText>
+    <EditText android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:layout_width="300dip" android:text="@string/macFile" android:id="@+id/macCheckMacFile"></EditText>
+    <RadioGroup android:layout_width="wrap_content" android:layout_gravity="center_horizontal" android:layout_height="wrap_content" android:id="@+id/macCheckRG">
+        <RadioButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:checked="true" android:text="@string/macAlg1" android:layout_gravity="left" android:id="@+id/macCheckR1"></RadioButton>
+        <RadioButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/macAlg2" android:layout_gravity="left" android:id="@+id/macCheckR2"></RadioButton>
+    </RadioGroup>
+    <Button android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:layout_width="200dip" android:text="@string/macCheck" android:id="@+id/macCheckMenuBtn"></Button>
+</LinearLayout>
